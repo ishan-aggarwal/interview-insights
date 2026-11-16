@@ -182,6 +182,5 @@ public class InvertedIndex {
                 "After deleting Doc1, search Java: " +
                         invertedIndex.search("Java")
         );
-
     }
 }
