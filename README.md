@@ -8,11 +8,13 @@ The repository is organized into three major parts:
 
 Data structures and algorithms, organized by difficulty and module.
 
-| Problem | Key observation | Time | Space | Links |
-| --- | --- | ---: | ---: | --- |
-| Maximum subarray sum | A negative running sum cannot improve a future subarray, so restart at the next element. | `O(N)` | `O(1)` | [Solution](src/main/java/com/interviewinsights/learn_dsa/advanced/module1/c1/_001_MaxSubArraySum.java) |
+| # | Problem | Key observation | Time&nbsp;Complexity | Space&nbsp;Complexity | Links |
+| ---: | --- | --- | :---: | :---: | --- |
+| 1 | Maximum subarray sum | A negative running sum cannot improve a future subarray, so restart at the next element. | `O(N)` | `O(1)` | [Solution](src/main/java/com/interviewinsights/learn_dsa/advanced/module1/c1/_001_MaxSubArraySum.java) |
+| 2 | Continuous sum query | Use a difference array: add the donation at `L`, subtract it immediately after `R`, then use prefix sums to calculate each beggar's final amount. | `O(A + Q)` | `O(A)` | [Solution](src/main/java/com/interviewinsights/learn_dsa/advanced/module1/c1/_003_ContinuousSumQuery.java) |
+| 3 | Continuous sum query — suffix updates | Store each donation at its starting index `L`; a prefix sum propagates it through the suffix. | `O(A + Q)` | `O(A)` | [Solution](src/main/java/com/interviewinsights/learn_dsa/advanced/module1/c1/_002_ContinuousSumQuerySuffix.java) |
 
-The solution also includes a variant that returns the start and end indices of the best subarray.
+The maximum subarray solution also includes a variant that returns the start and end indices of the best subarray.
 
 ## `learn_java`
 
