@@ -1,4 +1,4 @@
-package com.interviewinsights.company.mongodb._1_coding._lru_cache;
+package com.interviewinsights.company_interviews.mongodb._1_coding._lru_cache;
 
 import java.util.HashMap;
 import java.util.Map;

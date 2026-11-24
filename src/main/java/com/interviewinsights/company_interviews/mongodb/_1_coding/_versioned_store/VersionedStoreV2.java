@@ -1,4 +1,4 @@
-package com.interviewinsights.company.mongodb._1_coding._versioned_store;
+package com.interviewinsights.company_interviews.mongodb._1_coding._versioned_store;
 
 import java.util.*;
 

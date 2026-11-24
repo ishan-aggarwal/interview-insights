@@ -1,4 +1,4 @@
-package com.interviewinsights.company.mongodb._1_coding._legacy_data_cleanup;
+package com.interviewinsights.company_interviews.mongodb._1_coding._legacy_data_cleanup;
 
 import java.util.*;
 
