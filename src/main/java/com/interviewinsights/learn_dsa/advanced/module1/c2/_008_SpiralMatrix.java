@@ -105,11 +105,13 @@ public class _008_SpiralMatrix {
         int r = 0, c = 0;
 
         // Process the matrix from the outside layer toward the center.
-        while (n >= 1) {
+        while (n > 0) {
+            // print boundary
             printSpiral(matrix, r, c, n);
+            // update n, r and c
+            n -= 2;
             r++;
             c++;
-            n -= 2;
         }
 
         System.out.println(ans);
